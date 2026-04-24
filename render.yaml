@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bikelytics-ai
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "cd backend && gunicorn backend.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0

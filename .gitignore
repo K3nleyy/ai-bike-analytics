@@ -1,0 +1,16 @@
+# Python / Django
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Node / React
+frontend/node_modules/
+.env
+
+# MacOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
