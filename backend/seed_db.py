@@ -12,7 +12,7 @@ from api.models import RiderSegment
 
 def seed():
     print("Loading data and models...")
-    df = pd.read_csv('../clustered_bike_data.csv')
+    df = pd.read_csv('../dataset/clustered_bike_data.csv')
     scaler = joblib.load('../scaler.pkl')
     pca = joblib.load('../pca.pkl')
 
